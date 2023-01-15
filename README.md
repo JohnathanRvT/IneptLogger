@@ -56,6 +56,7 @@ std::string output = outputStream.str();
 - google test - The testing framework used
 
 ## Authors
-Johnathan van Tonder - Initial work - <https://github.com/JohnathanRvT>
-License
-This project is licensed under the MIT License - see the LICENSE.md<https://github.com/JohnathanRvT/IneptLogger/LICENSE.md> file for details
+Johnathan van Tonder - <github.com/JohnathanRvT>
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
