@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_BINARY_DIR "../lib")
 
-# Add the headers and sources to the library
+# Recursively find all source and header files for IneptLogger library
 file(GLOB_RECURSE headers inc/*.h)
 file(GLOB_RECURSE sources src/*.cpp)
 
@@ -19,4 +19,3 @@ add_library(IneptLogger STATIC ${headers} ${sources})
 
 # Add include directories for headers
 target_include_directories(IneptLogger PUBLIC inc)
-
